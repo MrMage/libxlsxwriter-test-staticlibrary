@@ -13,9 +13,19 @@
 		65A57C161F8CDF3D0001C2F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A57C151F8CDF3D0001C2F8 /* Assets.xcassets */; };
 		65A57C191F8CDF3D0001C2F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A57C171F8CDF3D0001C2F8 /* LaunchScreen.storyboard */; };
 		65A57C1C1F8CDF3D0001C2F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A57C1B1F8CDF3D0001C2F8 /* main.m */; };
+		65A57C2A1F8CDFE70001C2F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A57C101F8CDF3D0001C2F8 /* ViewController.m */; };
+		65A57C2B1F8CDFE70001C2F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A57C1B1F8CDF3D0001C2F8 /* main.m */; };
+		65A57C2C1F8CDFE70001C2F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A57C0D1F8CDF3D0001C2F8 /* AppDelegate.m */; };
+		65A57C2F1F8CDFE70001C2F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A57C171F8CDF3D0001C2F8 /* LaunchScreen.storyboard */; };
+		65A57C301F8CDFE70001C2F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A57C151F8CDF3D0001C2F8 /* Assets.xcassets */; };
+		65A57C311F8CDFE70001C2F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A57C121F8CDF3D0001C2F8 /* Main.storyboard */; };
+		E785D74A1274E79F53500513 /* libPods-libxlsxwriter-test-staticlibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E56CAA54D9229A52CD8604 /* libPods-libxlsxwriter-test-staticlibrary.a */; };
+		F122CE55B3A1D79E9813EB8C /* Pods_libxlsxwriter_test_dynamiclibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4FAF9E51309DD2B301FDDD /* Pods_libxlsxwriter_test_dynamiclibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0767FF3492E857A61954BB88 /* Pods-libxlsxwriter-test-dynamiclibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libxlsxwriter-test-dynamiclibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-libxlsxwriter-test-dynamiclibrary/Pods-libxlsxwriter-test-dynamiclibrary.release.xcconfig"; sourceTree = "<group>"; };
+		60A55C99465FDB11D06C7F2C /* Pods-libxlsxwriter-test-staticlibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libxlsxwriter-test-staticlibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-libxlsxwriter-test-staticlibrary/Pods-libxlsxwriter-test-staticlibrary.release.xcconfig"; sourceTree = "<group>"; };
 		65A57C091F8CDF3D0001C2F8 /* libxlsxwriter-test-staticlibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "libxlsxwriter-test-staticlibrary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A57C0C1F8CDF3D0001C2F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65A57C0D1F8CDF3D0001C2F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,12 @@
 		65A57C181F8CDF3D0001C2F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65A57C1A1F8CDF3D0001C2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A57C1B1F8CDF3D0001C2F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65A57C351F8CDFE70001C2F8 /* libxlsxwriter-test-dynamiclibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "libxlsxwriter-test-dynamiclibrary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A57C361F8CDFE70001C2F8 /* libxlsxwriter-test-staticlibrary copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "libxlsxwriter-test-staticlibrary copy-Info.plist"; path = "/Users/daniel/Documents/Xcode/iPhone/libxlsxwriter-test-staticlibrary/libxlsxwriter-test-staticlibrary copy-Info.plist"; sourceTree = "<absolute>"; };
+		A7E56CAA54D9229A52CD8604 /* libPods-libxlsxwriter-test-staticlibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libxlsxwriter-test-staticlibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2D9AB22BE5BF072AEE1AC5 /* Pods-libxlsxwriter-test-staticlibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libxlsxwriter-test-staticlibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libxlsxwriter-test-staticlibrary/Pods-libxlsxwriter-test-staticlibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		F453107649C3C94996D70FD7 /* Pods-libxlsxwriter-test-dynamiclibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libxlsxwriter-test-dynamiclibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libxlsxwriter-test-dynamiclibrary/Pods-libxlsxwriter-test-dynamiclibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		FA4FAF9E51309DD2B301FDDD /* Pods_libxlsxwriter_test_dynamiclibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libxlsxwriter_test_dynamiclibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E785D74A1274E79F53500513 /* libPods-libxlsxwriter-test-staticlibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A57C2D1F8CDFE70001C2F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122CE55B3A1D79E9813EB8C /* Pods_libxlsxwriter_test_dynamiclibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189DF9BB04D1AC155DF65BD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F453107649C3C94996D70FD7 /* Pods-libxlsxwriter-test-dynamiclibrary.debug.xcconfig */,
+				0767FF3492E857A61954BB88 /* Pods-libxlsxwriter-test-dynamiclibrary.release.xcconfig */,
+				DC2D9AB22BE5BF072AEE1AC5 /* Pods-libxlsxwriter-test-staticlibrary.debug.xcconfig */,
+				60A55C99465FDB11D06C7F2C /* Pods-libxlsxwriter-test-staticlibrary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		65A57C001F8CDF3D0001C2F8 = {
 			isa = PBXGroup;
 			children = (
 				65A57C0B1F8CDF3D0001C2F8 /* libxlsxwriter-test-staticlibrary */,
 				65A57C0A1F8CDF3D0001C2F8 /* Products */,
+				65A57C361F8CDFE70001C2F8 /* libxlsxwriter-test-staticlibrary copy-Info.plist */,
+				189DF9BB04D1AC155DF65BD5 /* Pods */,
+				7336AF66E7AF2B1783F29911 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				65A57C091F8CDF3D0001C2F8 /* libxlsxwriter-test-staticlibrary.app */,
+				65A57C351F8CDFE70001C2F8 /* libxlsxwriter-test-dynamiclibrary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +111,15 @@
 			path = "libxlsxwriter-test-staticlibrary";
 			sourceTree = "<group>";
 		};
+		7336AF66E7AF2B1783F29911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4FAF9E51309DD2B301FDDD /* Pods_libxlsxwriter_test_dynamiclibrary.framework */,
+				A7E56CAA54D9229A52CD8604 /* libPods-libxlsxwriter-test-staticlibrary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65A57C1F1F8CDF3D0001C2F8 /* Build configuration list for PBXNativeTarget "libxlsxwriter-test-staticlibrary" */;
 			buildPhases = (
+				480A4EA37D69DAE91B2D2A74 /* [CP] Check Pods Manifest.lock */,
 				65A57C051F8CDF3D0001C2F8 /* Sources */,
 				65A57C061F8CDF3D0001C2F8 /* Frameworks */,
 				65A57C071F8CDF3D0001C2F8 /* Resources */,
+				49816473CAED6B5F51643D2D /* [CP] Embed Pods Frameworks */,
+				770808FC65C95882CA29D7EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -89,6 +141,26 @@
 			name = "libxlsxwriter-test-staticlibrary";
 			productName = "libxlsxwriter-test-staticlibrary";
 			productReference = 65A57C091F8CDF3D0001C2F8 /* libxlsxwriter-test-staticlibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65A57C281F8CDFE70001C2F8 /* libxlsxwriter-test-dynamiclibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A57C321F8CDFE70001C2F8 /* Build configuration list for PBXNativeTarget "libxlsxwriter-test-dynamiclibrary" */;
+			buildPhases = (
+				CF5B43AE255B43273DA2DA13 /* [CP] Check Pods Manifest.lock */,
+				65A57C291F8CDFE70001C2F8 /* Sources */,
+				65A57C2D1F8CDFE70001C2F8 /* Frameworks */,
+				65A57C2E1F8CDFE70001C2F8 /* Resources */,
+				333073C30E41AC219BD00F63 /* [CP] Embed Pods Frameworks */,
+				847A115D72347329373A2224 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libxlsxwriter-test-dynamiclibrary";
+			productName = "libxlsxwriter-test-staticlibrary";
+			productReference = 65A57C351F8CDFE70001C2F8 /* libxlsxwriter-test-dynamiclibrary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,6 +174,9 @@
 				TargetAttributes = {
 					65A57C081F8CDF3D0001C2F8 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					65A57C281F8CDFE70001C2F8 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -120,6 +195,7 @@
 			projectRoot = "";
 			targets = (
 				65A57C081F8CDF3D0001C2F8 /* libxlsxwriter-test-staticlibrary */,
+				65A57C281F8CDFE70001C2F8 /* libxlsxwriter-test-dynamiclibrary */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +211,119 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65A57C2E1F8CDFE70001C2F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A57C2F1F8CDFE70001C2F8 /* LaunchScreen.storyboard in Resources */,
+				65A57C301F8CDFE70001C2F8 /* Assets.xcassets in Resources */,
+				65A57C311F8CDFE70001C2F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		333073C30E41AC219BD00F63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-libxlsxwriter-test-dynamiclibrary/Pods-libxlsxwriter-test-dynamiclibrary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/libxlsxwriter-framework/xlsxwriter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xlsxwriter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libxlsxwriter-test-dynamiclibrary/Pods-libxlsxwriter-test-dynamiclibrary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480A4EA37D69DAE91B2D2A74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-libxlsxwriter-test-staticlibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49816473CAED6B5F51643D2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libxlsxwriter-test-staticlibrary/Pods-libxlsxwriter-test-staticlibrary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		770808FC65C95882CA29D7EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libxlsxwriter-test-staticlibrary/Pods-libxlsxwriter-test-staticlibrary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847A115D72347329373A2224 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libxlsxwriter-test-dynamiclibrary/Pods-libxlsxwriter-test-dynamiclibrary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5B43AE255B43273DA2DA13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-libxlsxwriter-test-dynamiclibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65A57C051F8CDF3D0001C2F8 /* Sources */ = {
@@ -145,6 +333,16 @@
 				65A57C111F8CDF3D0001C2F8 /* ViewController.m in Sources */,
 				65A57C1C1F8CDF3D0001C2F8 /* main.m in Sources */,
 				65A57C0E1F8CDF3D0001C2F8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A57C291F8CDFE70001C2F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A57C2A1F8CDFE70001C2F8 /* ViewController.m in Sources */,
+				65A57C2B1F8CDFE70001C2F8 /* main.m in Sources */,
+				65A57C2C1F8CDFE70001C2F8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +459,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -276,10 +475,16 @@
 		};
 		65A57C201F8CDF3D0001C2F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2D9AB22BE5BF072AEE1AC5 /* Pods-libxlsxwriter-test-staticlibrary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NDB5JK3DZG;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"STATIC_LIBRARY=1",
+				);
 				INFOPLIST_FILE = "libxlsxwriter-test-staticlibrary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danielalm.libxlsxwriter-test-staticlibrary";
@@ -290,11 +495,47 @@
 		};
 		65A57C211F8CDF3D0001C2F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A55C99465FDB11D06C7F2C /* Pods-libxlsxwriter-test-staticlibrary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NDB5JK3DZG;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"STATIC_LIBRARY=1",
+				);
 				INFOPLIST_FILE = "libxlsxwriter-test-staticlibrary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.danielalm.libxlsxwriter-test-staticlibrary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65A57C331F8CDFE70001C2F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F453107649C3C94996D70FD7 /* Pods-libxlsxwriter-test-dynamiclibrary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDB5JK3DZG;
+				INFOPLIST_FILE = "libxlsxwriter-test-staticlibrary copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.danielalm.libxlsxwriter-test-staticlibrary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65A57C341F8CDFE70001C2F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0767FF3492E857A61954BB88 /* Pods-libxlsxwriter-test-dynamiclibrary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDB5JK3DZG;
+				INFOPLIST_FILE = "libxlsxwriter-test-staticlibrary copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danielalm.libxlsxwriter-test-staticlibrary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -319,6 +560,15 @@
 			buildConfigurations = (
 				65A57C201F8CDF3D0001C2F8 /* Debug */,
 				65A57C211F8CDF3D0001C2F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A57C321F8CDFE70001C2F8 /* Build configuration list for PBXNativeTarget "libxlsxwriter-test-dynamiclibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A57C331F8CDFE70001C2F8 /* Debug */,
+				65A57C341F8CDFE70001C2F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
